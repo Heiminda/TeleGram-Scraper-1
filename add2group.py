@@ -99,7 +99,7 @@ n = 0
  
 for user in users:
     n += 1
-    if n % 50 == 0:
+    if n % 45 == 0:
 	    time.sleep(358)
 	    try:
 	        print ("Adding {}".format(user['id']))
